@@ -1,0 +1,18 @@
+{
+ "learning-poverty": ["child reading book school", "children learning to read classroom"],
+ "teacher-shortage": ["teacher crowded classroom", "teacher blackboard students"],
+ "out-of-school-children": ["children rural village road", "child carrying water village"],
+ "student-myopia": ["child wearing glasses", "eye exam child optometrist"],
+ "teen-physical-inactivity": ["kids playing football", "children running playground"],
+ "e-waste": ["electronic waste", "e-waste recycling"],
+ "air-pollution": ["smog city skyline", "air pollution city haze"],
+ "hearing-loss-access": ["sign language", "hearing aid"],
+ "vision-impairment-access": ["blind person white cane", "braille reading"],
+ "digital-divide": ["village mobile phone", "rural internet access"],
+ "ageing-neighbourhood": ["elderly people park", "grandmother grandchild"],
+ "safe-route-to-school": ["children crossing road school", "zebra crossing children"],
+ "food-waste": ["food waste", "leftover food garbage"],
+ "crop-pests": ["locust swarm", "farmer field crops leaves"],
+ "kids-online-safety": ["child using tablet", "kids smartphone screen"],
+ "misinformation": ["newspapers", "fake news"]
+}
