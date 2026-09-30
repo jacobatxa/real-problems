@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-zh="真问题 · 世界上的真问题，正等着一群年轻人" data-en="Real Problems · Real-world problems waiting for young builders">真问题 · 世界上的真问题，正等着一群年轻人</title>
+<meta name="description" content="来自世界各地、有可靠来源、AI 可能帮上忙的真问题，每一个都能变成孩子们组队参与的真实项目。 Real, sourced problems from around the world that AI could help with, each one a possible team project for young builders.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23ff6a3d'/%3E%3Ccircle cx='16' cy='16' r='6' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6"><circle cx="12" cy="12" r="5"/></svg></span>
+      <span data-l="zh">真问题</span><span data-l="en">Real Problems</span>
+    </a>
+    <nav class="nav">
+      <a href="#wall" class="hide-sm"><span data-l="zh">问题墙</span><span data-l="en">Problems</span></a>
+      <a href="#how" class="hide-sm"><span data-l="zh">怎么挑选</span><span data-l="en">How we choose</span></a>
+      <a href="submit.html" class="pill"><span data-l="zh">提交问题</span><span data-l="en">Submit</span></a>
+      <div class="lang" role="group" aria-label="Language"><button type="button" data-set="zh">中</button><button type="button" data-set="en">EN</button></div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>
+          <span data-l="zh">世界上有很多<em>真问题</em>，<br>正等着一群年轻人</span>
+          <span data-l="en">The world has <em>real problems</em><br>waiting for young builders</span>
+        </h1>
+        <p class="lead">
+          <span data-l="zh">每一个问题都有可靠来源，都有 AI 能帮上忙的地方，也都能从一个几周就能做完的小项目开始。</span>
+          <span data-l="en">Every problem here has a trusted source, a place where AI can help, and a small first project a team can finish in a few weeks.</span>
+        </p>
+      </div>
+      <div class="stats">
+        <div class="stat"><b id="statProblems">0</b><span data-l="zh">个真问题</span><span data-l="en">problems</span></div>
+        <div class="stat"><b id="statCats">0</b><span data-l="zh">个领域</span><span data-l="en">areas</span></div>
+        <div class="stat"><b id="statSources">0</b><span data-l="zh">家权威来源</span><span data-l="en">trusted sources</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="toolbar" id="wall">
+    <div class="wrap">
+      <div class="box">
+        <label class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="q" type="search" autocomplete="off" data-ph-zh="搜一搜：水、老人、学校、塑料……" data-ph-en="Search: water, elderly, school, plastic...">
+        </label>
+        <div class="chips" id="chips"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="wall-head">
+      <h2 id="wallTitle"></h2>
+      <span><span data-l="zh">点开卡片，看看可以从哪里开始</span><span data-l="en">Open a card to see where to start</span></span>
+    </div>
+    <div class="wall" id="cards"></div>
+  </div>
+
+  <section class="block" id="how">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow"><span data-l="zh">怎么挑选</span><span data-l="en">How we choose</span></div>
+        <h2><span data-l="zh">每个问题，都用同一把尺子来量</span><span data-l="en">Every problem is measured with the same ruler</span></h2>
+        <p><span data-l="zh">收到的问题五花八门，所以我们用五个维度给每一条打分，分数够了才会上墙，更高的才会变成项目。</span><span data-l="en">Submissions vary a lot, so we score each one on five dimensions. Enough points puts it on the wall; more makes it a project.</span></p>
+      </div>
+      <div class="rubric">
+        <div class="flow">
+          <div class="st"><b>01</b><div><h4><span data-l="zh">收到问题</span><span data-l="en">A problem arrives</span></h4><p><span data-l="zh">来自提交表单，或我们从全球公开报告里整理。</span><span data-l="en">From the submission form, or gathered from public global reports.</span></p></div></div>
+          <div class="st"><b>02</b><div><h4><span data-l="zh">先过安全底线</span><span data-l="en">Safety check first</span></h4><p><span data-l="zh">不涉及隐私、危险和医疗诊断，孩子才能参与。</span><span data-l="en">No private data, danger, or medical diagnosis, so young people can take part.</span></p></div></div>
+          <div class="st"><b>03</b><div><h4><span data-l="zh">导师按五个维度打分</span><span data-l="en">Mentors score five dimensions</span></h4><p><span data-l="zh">每项 1 到 3 分，满分 15 分，并补上可靠来源。</span><span data-l="en">1 to 3 points each, 15 in total, plus a trusted source.</span></p></div></div>
+          <div class="st"><b>04</b><div><h4><span data-l="zh">上墙，或成为项目</span><span data-l="en">On the wall, or a project</span></h4><p><span data-l="zh">10 分以上上墙；12 分以上并找到导师，就开始组队。</span><span data-l="en">10+ goes on the wall. 12+ with a mentor becomes a team project.</span></p></div></div>
+        </div>
+        <div class="dims" id="dims"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow"><span data-l="zh">为什么要提交</span><span data-l="en">Why submit</span></div>
+        <h2><span data-l="zh">你知道的问题，可能就是下一个项目</span><span data-l="en">The problem you know could be the next project</span></h2>
+      </div>
+      <div class="why">
+        <div class="it">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h4><span data-l="zh">被认真看见</span><span data-l="en">Seen and read</span></h4>
+          <p><span data-l="zh">每一条都有导师阅读和打分，上墙时会写上提问人的名字。</span><span data-l="en">A mentor reads and scores every one. Your name goes on the card when it is listed.</span></p>
+        </div>
+        <div class="it">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.3"/><path d="M15.5 14.3A5 5 0 0 1 21 19"/></svg></div>
+          <h4><span data-l="zh">孩子们会来找你</span><span data-l="en">Young builders will reach out</span></h4>
+          <p><span data-l="zh">成为项目后，团队会来采访你，做出第一版请你试用。</span><span data-l="en">Once it is a project, the team will interview you and ask you to try the first version.</span></p>
+        </div>
+        <div class="it">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg></div>
+          <h4><span data-l="zh">看到它一点点变好</span><span data-l="en">Watch it get better</span></h4>
+          <p><span data-l="zh">留下联系方式，项目每走一步，我们都会告诉你。</span><span data-l="en">Leave a contact and we will share each step the project takes.</span></p>
+        </div>
+      </div>
+      <div class="cta-row">
+        <div>
+          <h3><span data-l="zh">你身边有什么让人头疼的事？</span><span data-l="en">What bothers people around you?</span></h3>
+          <p><span data-l="zh">三分钟就能填完，说清楚谁、在哪里、遇到了什么就够了。</span><span data-l="en">Three minutes is enough: who, where, and what goes wrong.</span></p>
+        </div>
+        <a class="btn light" href="submit.html"><span data-l="zh">提交一个问题</span><span data-l="en">Submit a problem</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span data-l="zh">真问题 · 把世界上的真问题，变成孩子们的真项目</span>
+    <span data-l="en">Real Problems · Turning real-world problems into real projects for young builders</span>
+  </div>
+</footer>
+
+<dialog class="detail" id="detail"><div class="inner"></div></dialog>
+<script src="assets/problems.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>
