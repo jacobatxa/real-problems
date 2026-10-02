@@ -20,6 +20,12 @@ window.PROBLEMS = [
   "big_en": "70%",
   "big_label_zh": "的 10 岁孩子读不懂简单短文",
   "big_label_en": "of 10-year-olds cannot read a simple text",
+  "photo": {
+   "src": "assets/photos/learning-poverty.jpg",
+   "credit": "DFID / UK Aid",
+   "license": "CC BY 2.0",
+   "link": "https://commons.wikimedia.org/wiki/File%3ABetter_quality_learning_in_a_safe_environment_%288423292169%29.jpg"
+  },
   "publisher": "World Bank"
  },
  {
@@ -89,6 +95,12 @@ window.PROBLEMS = [
   "big_en": "50.3%",
   "big_label_zh": "的中国学生近视",
   "big_label_en": "of students in China are short-sighted",
+  "photo": {
+   "src": "assets/photos/student-myopia.jpg",
+   "credit": "MIKI Yoshihito",
+   "license": "CC BY 2.0",
+   "link": "https://commons.wikimedia.org/wiki/File%3ASAKURAKO_got_a_new_eyeglasses._%2844482841720%29.jpg"
+  },
   "publisher": "人民日报"
  },
  {
@@ -135,6 +147,12 @@ window.PROBLEMS = [
   "big_en": "22.3%",
   "big_label_zh": "的电子垃圾被正规回收",
   "big_label_en": "of e-waste is properly recycled",
+  "photo": {
+   "src": "assets/photos/e-waste.jpg",
+   "credit": "Muntaka Chasant",
+   "license": "CC BY-SA 4.0",
+   "link": "https://commons.wikimedia.org/wiki/File%3AElectronic_waste_at_Agbogbloshie%2C_Ghana.jpg"
+  },
   "publisher": "ITU"
  },
  {
@@ -181,6 +199,12 @@ window.PROBLEMS = [
   "big_en": "34 million",
   "big_label_zh": "个孩子需要听力康复",
   "big_label_en": "children need hearing rehabilitation",
+  "photo": {
+   "src": "assets/photos/hearing-loss-access.jpg",
+   "credit": "Raimond Spekking",
+   "license": "CC BY-SA 4.0",
+   "link": "https://commons.wikimedia.org/wiki/File%3ASign_language_interpreter_-_CSD_2006_Cologne_7.jpg"
+  },
   "publisher": "WHO"
  },
  {
@@ -250,6 +274,12 @@ window.PROBLEMS = [
   "big_en": "323 million",
   "big_label_zh": "中国 60 岁以上的老人",
   "big_label_en": "people in China aged 60 and over",
+  "photo": {
+   "src": "assets/photos/ageing-neighbourhood.jpg",
+   "credit": "Wing1990hk",
+   "license": "CC BY 3.0",
+   "link": "https://commons.wikimedia.org/wiki/File%3ATuen_Mun_Park_Elderly_people_Performance_201207.jpg"
+  },
   "publisher": "国家统计局"
  },
  {
@@ -296,6 +326,12 @@ window.PROBLEMS = [
   "big_en": "1 in 5",
   "big_label_zh": "的食物被浪费掉",
   "big_label_en": "of food goes to waste",
+  "photo": {
+   "src": "assets/photos/food-waste.jpg",
+   "credit": "Bdeb1",
+   "license": "CC BY-SA 4.0",
+   "link": "https://commons.wikimedia.org/wiki/File%3AStruggle_for_survival_in_the_landfill.jpg"
+  },
   "publisher": "UNEP"
  },
  {
@@ -342,6 +378,12 @@ window.PROBLEMS = [
   "big_en": "196 million",
   "big_label_zh": "中国未成年网民",
   "big_label_en": "internet users under 18 in China",
+  "photo": {
+   "src": "assets/photos/kids-online-safety.jpg",
+   "credit": "Biswarup Ganguly",
+   "license": "CC BY-SA 4.0",
+   "link": "https://commons.wikimedia.org/wiki/File%3AChild_Playing_With_Smartphone_-_Kolkata_2019-06-01_1457.JPG"
+  },
   "publisher": "中国青年报"
  },
  {

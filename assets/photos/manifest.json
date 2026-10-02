@@ -1,0 +1,44 @@
+{
+  "learning-poverty": {
+    "src": "assets/photos/learning-poverty.jpg",
+    "credit": "DFID - UK Department for International Development",
+    "license": "CC BY 2.0",
+    "link": "https://commons.wikimedia.org/wiki/File%3ABetter_quality_learning_in_a_safe_environment_%288423292169%29.jpg"
+  },
+  "student-myopia": {
+    "src": "assets/photos/student-myopia.jpg",
+    "credit": "MIKI Yoshihito from Sapporo City,Hokkaido., JAPAN",
+    "license": "CC BY 2.0",
+    "link": "https://commons.wikimedia.org/wiki/File%3ASAKURAKO_got_a_new_eyeglasses._%2844482841720%29.jpg"
+  },
+  "e-waste": {
+    "src": "assets/photos/e-waste.jpg",
+    "credit": "Muntaka Chasant",
+    "license": "CC BY-SA 4.0",
+    "link": "https://commons.wikimedia.org/wiki/File%3AElectronic_waste_at_Agbogbloshie%2C_Ghana.jpg"
+  },
+  "hearing-loss-access": {
+    "src": "assets/photos/hearing-loss-access.jpg",
+    "credit": "Raimond Spekking",
+    "license": "CC BY-SA 4.0",
+    "link": "https://commons.wikimedia.org/wiki/File%3ASign_language_interpreter_-_CSD_2006_Cologne_7.jpg"
+  },
+  "ageing-neighbourhood": {
+    "src": "assets/photos/ageing-neighbourhood.jpg",
+    "credit": "Wing1990hk",
+    "license": "CC BY 3.0",
+    "link": "https://commons.wikimedia.org/wiki/File%3ATuen_Mun_Park_Elderly_people_Performance_201207.jpg"
+  },
+  "food-waste": {
+    "src": "assets/photos/food-waste.jpg",
+    "credit": "Bdeb1",
+    "license": "CC BY-SA 4.0",
+    "link": "https://commons.wikimedia.org/wiki/File%3AStruggle_for_survival_in_the_landfill.jpg"
+  },
+  "kids-online-safety": {
+    "src": "assets/photos/kids-online-safety.jpg",
+    "credit": "Biswarup Ganguly",
+    "license": "CC BY-SA 4.0",
+    "link": "https://commons.wikimedia.org/wiki/File%3AChild_Playing_With_Smartphone_-_Kolkata_2019-06-01_1457.JPG"
+  }
+}
