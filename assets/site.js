@@ -193,25 +193,6 @@
     document.getElementById("find").addEventListener("input", function (e) { state.q = e.target.value.trim().toLowerCase(); draw(); });
     draw();
 
-    var peek = document.getElementById("peek");
-    if (window.matchMedia("(hover:hover)").matches) {
-      list.addEventListener("mousemove", function (e) {
-        var r = e.target.closest(".row");
-        if (!r) { peek.classList.remove("on"); return; }
-        if (peek.dataset.id !== r.dataset.id) {
-          var p = data.find(function (x) { return x.id === r.dataset.id; });
-          peek.dataset.id = p.id;
-          peek.className = "peek cat-" + p.category;
-          peek.innerHTML = photo(p);
-        }
-        peek.classList.add("on");
-        var x = Math.min(window.innerWidth - 380, e.clientX + 28), y = Math.min(window.innerHeight - 245, e.clientY - 110);
-        peek.style.left = x + "px";
-        peek.style.top = Math.max(84, y) + "px";
-      });
-      list.addEventListener("mouseleave", function () { peek.classList.remove("on"); });
-    }
-
     /* checklist lights up in sequence */
     var poll = document.querySelectorAll(".poll li");
     var pollIO = new IntersectionObserver(function (es) {
